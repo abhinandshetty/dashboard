@@ -89,10 +89,10 @@ const Analytical: FC = () => {
       </Grid>
       <Grid item xs={12} marginBottom="40px">
         <Grid container spacing={5}>
-          <Grid item lg={3} xs={6}>
+          <Grid item lg={3} sm={6} xs={12}>
             <StatInfo label="Total Clicks" value={chartData.totalClicks} />
           </Grid>
-          <Grid item lg={3} xs={6}>
+          <Grid item lg={3} sm={6} xs={12}>
             <StatInfo label="Total Impressions" value={chartData.totalImpressions} />
           </Grid>
         </Grid>
