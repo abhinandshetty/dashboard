@@ -21,8 +21,8 @@ const Value = styled.div`
 const StatInfo: FC<{ label: ReactNode; value: string | number }> = ({ label, value }) => {
   return (
     <Box>
-      <Label>{label}</Label>
-      <Value>{value}</Value>
+      <Label data-testid="label">{label}</Label>
+      <Value data-testid="value">{value}</Value>
     </Box>
   )
 }

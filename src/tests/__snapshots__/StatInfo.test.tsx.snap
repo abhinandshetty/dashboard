@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatInfo component renders correctly 1`] = `
+<div
+  className="css-1xpc2y8"
+>
+  <div
+    className="css-5od3bw"
+    data-testid="label"
+  >
+    Total clicks
+  </div>
+  <div
+    className="css-1dmgjwf"
+    data-testid="value"
+  >
+    12
+  </div>
+</div>
+`;
