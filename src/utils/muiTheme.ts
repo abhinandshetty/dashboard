@@ -9,4 +9,13 @@ export const theme = createTheme({
   typography: {
     fontFamily: ['PT Sans', 'sans-serif'].join(','),
   },
+  components: {
+    MuiOutlinedInput: {
+      styleOverrides: {
+        root: {
+          borderRadius: 0,
+        },
+      },
+    },
+  },
 })

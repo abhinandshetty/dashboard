@@ -7,10 +7,9 @@ import MenuIcon from '@mui/icons-material/Menu'
 import { Grid, Hidden, IconButton } from '@mui/material'
 
 const Init: FC = () => {
-  const [mobileOpen, setMobileOpen] = React.useState(true)
+  const [mobileOpen, setMobileOpen] = React.useState(false)
 
   const handleDrawerToggle = () => {
-    console.log(mobileOpen)
     setMobileOpen(!mobileOpen)
   }
 
