@@ -17,5 +17,12 @@ export const theme = createTheme({
         },
       },
     },
+    MuiDrawer: {
+      styleOverrides: {
+        paper: {
+          backgroundColor: '#fffbff',
+        },
+      },
+    },
   },
 })
